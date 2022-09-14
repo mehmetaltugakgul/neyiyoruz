@@ -25,7 +25,7 @@ export default function Meal() {
     >
       <center>
         <h1>NE YİYORUZ?</h1>
-        <div style={{ fontSize: "45px", textColor: "red" }}>
+        <div style={{ fontSize: "45px", color: "red" }}>
           {found.text}
           <br></br> <br></br>
         </div>

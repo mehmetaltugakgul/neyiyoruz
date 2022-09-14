@@ -8,7 +8,7 @@ export default function Meal() {
   const imageClick = () => {
     var randomValue = Math.floor(Math.random() * (13 - 1 + 1)) + 1
 
-    const found = dummyData.find((element) => element.id == randomValue)
+    const found = dummyData.find((element) => element.id === randomValue)
 
     setFound(found)
 
@@ -26,7 +26,7 @@ export default function Meal() {
       <center>
         <h1>NE YİYORUZ?</h1>
         <div style={{ fontSize: "45px" }}>
-          {found.text !== found.text ? "Tekrar Tıklayın" : found.text}
+          {found.text}
           <br></br> <br></br>
         </div>
 

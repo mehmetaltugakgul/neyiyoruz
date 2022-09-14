@@ -1,0 +1,15 @@
+export const dummyData = [
+  { id: 1, text: "Döner" },
+  { id: 2, text: "İskender" },
+  { id: 3, text: "Burger" },
+  { id: 4, text: "Söğüş" },
+  { id: 5, text: "Pide" },
+  { id: 6, text: "Kumpir" },
+  { id: 7, text: "Adana" },
+  { id: 8, text: "SSK" },
+  { id: 9, text: "Salata" },
+  { id: 10, text: "Makarna" },
+  { id: 11, text: "Ev Yemeği" },
+  { id: 12, text: "Kelle" },
+  { id: 13, text: "Çorba" },
+]

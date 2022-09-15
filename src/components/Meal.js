@@ -6,7 +6,7 @@ export default function Meal() {
   const [found, setFound] = useState(0)
 
   const imageClick = () => {
-    var randomValue = Math.floor(Math.random() * (13 - 1 + 1)) + 1
+    var randomValue = Math.floor(Math.random() * (15 - 1 + 1)) + 1
 
     const found = dummyData.find((element) => element.id === randomValue)
 

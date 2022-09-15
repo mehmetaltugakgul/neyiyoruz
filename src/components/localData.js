@@ -12,4 +12,6 @@ export const dummyData = [
   { id: 11, text: "Ev Yemeği" },
   { id: 12, text: "Kelle" },
   { id: 13, text: "Çorba" },
+  { id: 14, text: "Kavurma" },
+  { id: 15, text: "Çiğ Köfte" },
 ]
